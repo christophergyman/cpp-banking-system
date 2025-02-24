@@ -7,6 +7,7 @@ class Account
 {
 
 private:
+    double balance = 0.00;
     AccountHolder accountHolder;
     AccountCard accountCard;
 
@@ -20,6 +21,7 @@ public:
     // setter methods
     void setAccountHolder(AccountHolder const &accountHolder);
     void setAccountCard(AccountCard const &accountCard);
+    void setBalance(double const &balance);
 };
 
 #endif // ACCOUNT_H

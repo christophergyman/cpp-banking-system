@@ -8,6 +8,7 @@ int main()
     AccountCard chrisCard(78882, 203070, 4, 12);
     Account christopherAccount(chrisHolder, chrisCard);
 
+    christopherAccount.setBalance(400.00);
     christopherAccount.showAccountinformation();
 
     return 0;
