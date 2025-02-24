@@ -8,6 +8,7 @@ int main()
     AccountCard chrisCard(78882, 203070, 4, 12);
 
     Account christopherAccount(chrisHolder, chrisCard);
+    christopherAccount.showAccountinformation();
 
     return 0;
 }

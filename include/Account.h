@@ -14,6 +14,9 @@ public:
     // constructor
     Account(AccountHolder accountHolder, AccountCard accountCard);
 
+    // print account information
+    void showAccountinformation();
+
     // setter methods
     void setAccountHolder(AccountHolder const &accountHolder);
     void setAccountCard(AccountCard const &accountCard);
