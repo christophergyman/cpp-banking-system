@@ -1,6 +1,9 @@
 clear
-clang++ -std=c++17 ../src/main.cpp \
-    -I/opt/homebrew/include \
-    -L/opt/homebrew/lib \
+
+clang++ -std=c++17 \
+    ../src/main.cpp \
+    ../src/AccountHolder.cpp \
+    -I ../include \
     -o main 
+
 ./main
