@@ -13,7 +13,5 @@ void AccountHolder::accountWhoAmI()
 
 // account setter methods
 void AccountHolder::setAccountHolderFirstName(std::string const &paramFirstName) { this->firstName = paramFirstName; }
-
 void AccountHolder::setAccountHolderMiddleName(std::string const &paramMiddleName) { this->middleName = paramMiddleName; }
-
 void AccountHolder::setAccountHolderLastName(std::string const &paramLastName) { this->lastName = paramLastName; }

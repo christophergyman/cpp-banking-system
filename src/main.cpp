@@ -1,17 +1,13 @@
 #include "AccountHolder.h"
 #include "AccountCard.h"
+#include "Account.h"
 
 int main()
 {
-    AccountHolder holder("Christopher", "Ga yiu", "Man");
-    holder.accountWhoAmI();
+    AccountHolder chrisHolder("Christopher", "Ga Yiu", "Man");
+    AccountCard chrisCard(78882, 203070, 4, 12);
 
-    std::cout << "\n";
-
-    holder.setAccountHolderFirstName("Jane");
-    holder.setAccountHolderMiddleName("Elizabeth");
-    holder.setAccountHolderLastName("Doe");
-    holder.accountWhoAmI();
+    Account christopherAccount(chrisHolder, chrisCard);
 
     return 0;
 }

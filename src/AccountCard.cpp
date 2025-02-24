@@ -16,10 +16,7 @@ void AccountCard::cardInfo()
 }
 
 // setter methods
-void AccountCard::setAccountCardNumber(int cardNumber) { this->cardNumber = cardNumber; }
-
-void AccountCard::setAccountCardSortCode(int sortCode) { this->sortCode = sortCode; }
-
-void AccountCard::setAccountCardExpiryMonth(int expiryMonth) { this->expiryMonth = expiryMonth; }
-
-void AccountCard::setAccountCardExpiryYear(int expiryYear) { this->expiryYear = expiryYear; }
+void AccountCard::setAccountCardNumber(int const &cardNumber) { this->cardNumber = cardNumber; }
+void AccountCard::setAccountCardSortCode(int const &sortCode) { this->sortCode = sortCode; }
+void AccountCard::setAccountCardExpiryMonth(int const &expiryMonth) { this->expiryMonth = expiryMonth; }
+void AccountCard::setAccountCardExpiryYear(int const &expiryYear) { this->expiryYear = expiryYear; }

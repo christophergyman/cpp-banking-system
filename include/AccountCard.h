@@ -19,10 +19,10 @@ public:
     void cardInfo();
 
     // setter methods
-    void setAccountCardNumber(int cardNumber);
-    void setAccountCardSortCode(int sortCode);
-    void setAccountCardExpiryMonth(int expiryMonth);
-    void setAccountCardExpiryYear(int expiryYear);
+    void setAccountCardNumber(int const &cardNumber);
+    void setAccountCardSortCode(int const &sortCode);
+    void setAccountCardExpiryMonth(int const &expiryMonth);
+    void setAccountCardExpiryYear(int const &expiryYear);
 };
 
 #endif // ACCOUNTCARD_H
