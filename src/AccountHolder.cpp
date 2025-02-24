@@ -6,23 +6,14 @@ AccountHolder::AccountHolder(std::string firstName, std::string middleName, std:
 // display current account holder information
 void AccountHolder::accountWhoAmI()
 {
-    std::cout << "firstName: " << firstName << " \n";
-    std::cout << "middleName: " << middleName << " \n";
-    std::cout << "lastName: " << lastName << " \n";
+    std::cout << "firstName: " << this->firstName << " \n";
+    std::cout << "middleName: " << this->middleName << " \n";
+    std::cout << "lastName: " << this->lastName << " \n";
 }
 
 // account setter methods
-void AccountHolder::setAccountHolderFirstName(std::string const &paramFirstName)
-{
-    this->firstName = paramFirstName;
-}
+void AccountHolder::setAccountHolderFirstName(std::string const &paramFirstName) { this->firstName = paramFirstName; }
 
-void AccountHolder::setAccountHolderMiddleName(std::string const &paramMiddleName)
-{
-    this->middleName = paramMiddleName;
-}
+void AccountHolder::setAccountHolderMiddleName(std::string const &paramMiddleName) { this->middleName = paramMiddleName; }
 
-void AccountHolder::setAccountHolderLastName(std::string const &paramLastName)
-{
-    this->lastName = paramLastName;
-}
+void AccountHolder::setAccountHolderLastName(std::string const &paramLastName) { this->lastName = paramLastName; }
