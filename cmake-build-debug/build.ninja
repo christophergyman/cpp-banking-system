@@ -73,6 +73,12 @@ build CMakeFiles/main.dir/src/oop-clases/Account.cpp.o: CXX_COMPILER__main_unsca
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src/oop-clases
 
+build CMakeFiles/main.dir/src/socket.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/chezu/Documents/github/cpp-banking-system/src/socket.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/src/socket.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -81,7 +87,7 @@ build CMakeFiles/main.dir/src/oop-clases/Account.cpp.o: CXX_COMPILER__main_unsca
 #############################################
 # Link the executable main
 
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/oop-clases/AccountHolder.cpp.o CMakeFiles/main.dir/src/oop-clases/AccountCard.cpp.o CMakeFiles/main.dir/src/oop-clases/Account.cpp.o
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/oop-clases/AccountHolder.cpp.o CMakeFiles/main.dir/src/oop-clases/AccountCard.cpp.o CMakeFiles/main.dir/src/oop-clases/Account.cpp.o CMakeFiles/main.dir/src/socket.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/main.dir
   POST_BUILD = :
