@@ -68,5 +68,3 @@ void closeSocket(const int &socket)
 {
     close(socket);
 }
-
-

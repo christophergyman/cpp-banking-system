@@ -12,4 +12,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(main src/main.cpp src/oop-clases/AccountHolder.cpp src/oop-clases/AccountCard.cpp src/oop-clases/Account.cpp
         src/socket.cpp
         src/socket.h
+        src/http_parser.cpp
+        src/http_parser.h
 )
