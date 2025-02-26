@@ -1,0 +1,52 @@
+# Sheet 1: Account Summary
+Account Number,Account Type,Account Holder,Opening Date,Current Balance,Interest Rate,Status
+1001234567,Checking,John Smith,2023-03-15,2345.67,0.01%,Active
+1001234568,Savings,John Smith,2023-03-15,15678.90,1.25%,Active
+1001234569,CD,John Smith,2023-06-22,10000.00,2.50%,Active
+1001234570,Checking,Jane Doe,2022-11-08,1250.34,0.01%,Active
+1001234571,Savings,Jane Doe,2022-11-08,8976.45,1.25%,Active
+1001234572,Checking,Robert Johnson,2024-01-17,567.89,0.01%,Active
+1001234573,Savings,Robert Johnson,2024-01-17,2340.56,1.25%,Active
+1001234574,CD,Robert Johnson,2024-01-22,25000.00,2.75%,Active
+1001234575,Checking,Sarah Williams,2023-08-05,3421.98,0.01%,Active
+1001234576,Savings,Sarah Williams,2023-08-05,12567.43,1.25%,Active
+
+# Sheet 2: Transaction History
+Transaction ID,Account Number,Date,Description,Amount,Type,Balance After Transaction
+T0001,1001234567,2025-02-24,Salary Deposit,2500.00,Credit,4845.67
+T0002,1001234567,2025-02-24,Rent Payment,-1500.00,Debit,3345.67
+T0003,1001234567,2025-02-25,Grocery Store,-78.43,Debit,3267.24
+T0004,1001234567,2025-02-25,Restaurant,-41.57,Debit,3225.67
+T0005,1001234567,2025-02-26,Gas Station,-38.25,Debit,3187.42
+T0006,1001234567,2025-02-26,ATM Withdrawal,-200.00,Debit,2987.42
+T0007,1001234567,2025-02-26,Monthly Service Fee,-15.00,Debit,2972.42
+T0008,1001234567,2025-02-26,Transfer to Savings,-600.00,Debit,2372.42
+T0009,1001234568,2025-02-26,Transfer from Checking,600.00,Credit,16278.90
+T0010,1001234570,2025-02-23,Paycheck Deposit,1850.00,Credit,3100.34
+T0011,1001234570,2025-02-24,Mortgage Payment,-1200.00,Debit,1900.34
+T0012,1001234570,2025-02-25,Electric Bill,-85.67,Debit,1814.67
+T0013,1001234570,2025-02-25,Water Bill,-45.88,Debit,1768.79
+T0014,1001234570,2025-02-26,Internet Bill,-78.45,Debit,1690.34
+T0015,1001234570,2025-02-26,Transfer to Savings,-440.00,Debit,1250.34
+
+# Sheet 3: Customer Information
+Customer ID,First Name,Last Name,DOB,Address,City,State,Zip,Phone,Email,Join Date
+C001,John,Smith,1985-07-12,123 Oak Street,Springfield,IL,62701,555-123-4567,john.smith@email.com,2023-03-15
+C002,Jane,Doe,1979-11-24,456 Maple Avenue,Springfield,IL,62702,555-234-5678,jane.doe@email.com,2022-11-08
+C003,Robert,Johnson,1992-05-03,789 Pine Road,Springfield,IL,62703,555-345-6789,robert.johnson@email.com,2024-01-17
+C004,Sarah,Williams,1988-09-15,321 Cedar Lane,Springfield,IL,62704,555-456-7890,sarah.williams@email.com,2023-08-05
+
+# Sheet 4: Loans
+Loan ID,Customer ID,Loan Type,Principal Amount,Interest Rate,Term (months),Monthly Payment,Origination Date,Maturity Date,Remaining Balance,Status
+L0001,C001,Auto Loan,25000.00,4.5%,60,466.08,2023-04-15,2028-04-15,19876.54,Current
+L0002,C001,Personal Loan,10000.00,8.75%,36,317.15,2023-09-10,2026-09-10,8765.43,Current
+L0003,C002,Mortgage,250000.00,5.25%,360,1380.51,2022-12-01,2052-12-01,245678.90,Current
+L0004,C003,Student Loan,45000.00,4.99%,120,477.01,2024-02-01,2034-02-01,44567.89,Current
+L0005,C004,Auto Loan,32000.00,4.25%,72,515.87,2023-10-15,2029-10-15,28765.43,Current
+
+# Sheet 5: Credit Cards
+Card Number,Customer ID,Card Type,Credit Limit,Current Balance,Available Credit,APR,Due Date,Minimum Payment,Last Payment Date,Last Payment Amount,Status
+XXXX-XXXX-XXXX-1234,C001,Platinum,15000.00,3256.78,11743.22,18.99%,2025-03-15,85.00,2025-02-15,350.00,Good Standing
+XXXX-XXXX-XXXX-2345,C002,Gold,10000.00,4567.89,5432.11,21.99%,2025-03-10,125.00,2025-02-10,200.00,Good Standing
+XXXX-XXXX-XXXX-3456,C003,Silver,5000.00,1234.56,3765.44,22.99%,2025-03-20,50.00,2025-02-20,300.00,Good Standing
+XXXX-XXXX-XXXX-4567,C004,Platinum,20000.00,7654.32,12345.68,17.99%,2025-03-05,200.00,2025-02-05,500.00,Good Standing

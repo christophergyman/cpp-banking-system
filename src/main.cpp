@@ -1,15 +1,10 @@
-#include "AccountHolder.h"
-#include "AccountCard.h"
-#include "Account.h"
+#include "oop-clases/AccountHolder.h"
+#include "oop-clases/AccountCard.h"
+#include "oop-clases/Account.h"
+#include <iostream>
 
 int main()
 {
-    AccountHolder chrisHolder("Christopher", "Ga Yiu", "Man");
-    AccountCard chrisCard(78882, 203070, 4, 12);
-    Account christopherAccount(chrisHolder, chrisCard);
-
-    christopherAccount.setBalance(400.00);
-    christopherAccount.showAccountinformation();
-
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }

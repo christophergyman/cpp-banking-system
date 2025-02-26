@@ -8,12 +8,12 @@ class Account
 
 private:
     double balance = 0.00;
-    AccountHolder accountHolder;
-    AccountCard accountCard;
+    AccountHolder &accountHolder;
+    AccountCard &accountCard;
 
 public:
     // constructor
-    Account(AccountHolder accountHolder, AccountCard accountCard);
+    Account(AccountHolder &accountHolder, AccountCard &accountCard);
 
     // print account information
     void showAccountinformation();

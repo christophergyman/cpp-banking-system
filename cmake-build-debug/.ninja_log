@@ -1,0 +1,12 @@
+# ninja log v6
+12	501	1740506149093248862	CMakeFiles/main.dir/src/main.cpp.o	3c35509522f9654e
+3	419	1740491731782215387	CMakeFiles/main.dir/src/AccountCard.cpp.o	5ec51f45a769d563
+3	411	1740491731782088180	CMakeFiles/main.dir/src/AccountHolder.cpp.o	2551eb1a4e37c972
+13	503	1740506149094266606	CMakeFiles/main.dir/src/Account.cpp.o	b28c1f18918d9029
+503	619	1740506149584480813	main	6cb03d46bd7ebddf
+3	33	1740491731782447260	CMakeFiles/main.dir/src/TestClass.cpp.o	ea3724d746db556
+7	501	1740575920771552947	CMakeFiles/main.dir/src/oop-clases/Account.cpp.o	2be5b601f33c7b2e
+6	501	1740575920770407543	CMakeFiles/main.dir/src/main.cpp.o	3c35509522f9654e
+7	502	1740575920771225034	CMakeFiles/main.dir/src/oop-clases/AccountHolder.cpp.o	e60347254037f01b
+7	502	1740575920771378865	CMakeFiles/main.dir/src/oop-clases/AccountCard.cpp.o	88b14d3d685921f8
+502	634	1740575921266805686	main	90ca8b1ea8ef4200

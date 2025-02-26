@@ -1,7 +1,7 @@
 #include "Account.h"
 
 // constructor
-Account::Account(AccountHolder accountHolder, AccountCard accountCard) : accountHolder(std::move(accountHolder)), accountCard(std::move(accountCard)) {}
+Account::Account(AccountHolder &accountHolder, AccountCard &accountCard) : accountHolder(accountHolder), accountCard(accountCard) {}
 
 // print account information
 void Account::showAccountinformation()
