@@ -25,9 +25,9 @@ void testThreads()
 void testParse()
 {
     std::cout << "[testParse]: starting.... \n";
-    std::string request = "POST /index.html HTTP/1.1\r\nHost: example.com\r\n";
+    const std::string request = "POST /index.html HTTP/1.1\r\nHost: example.com\r\n";
 
-    if (std::string method = parseHTTPHeader(request); method != "INVALID_METHOD")
+    if (const std::string method = parseHTTPHeader(request); method != "INVALID_METHOD")
     {
         std::cout << "HTTP method: " << method << " \n";
     } else
