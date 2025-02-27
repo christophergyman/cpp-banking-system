@@ -5,27 +5,28 @@
 #include "socket.h"
 #include "http_parser.h"
 
-
 // function to test sockets on threads
 void testThreads()
 {
     std::cout << "[main]: starting application...\n";
 
-    std::thread serverThread(startClientSocket);
-    serverThread.detach();
+    // Start server first and join both threads
+    std::thread serverThread(startServerSocket);
+    std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Give server time to start listening
+    std::thread clientThread(startClientSocket);
 
-    std::thread clientThread(startServerSocket);
+    // Join both threads to wait for completion
+    serverThread.join();
     clientThread.join();
 
     std::cout << "[main]: stopping application...\n";
 }
 
-
 // function to rest if http parser works
 void testParse()
 {
     std::cout << "[testParse]: starting.... \n";
-    const std::string request = "POST /index.html HTTP/1.1\r\nHost: example.com\r\n";
+    const std::string request = "GET /index.html HTTP/1.1\r\nHost: example.com\r\n";
 
     if (const std::string method = parseHTTPHeader(request); method != "INVALID_METHOD")
     {
@@ -38,6 +39,7 @@ void testParse()
 
 int main()
 {
-    testParse();
+    testThreads();
+    // testParse();
     return 0;
 }
