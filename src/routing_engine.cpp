@@ -10,8 +10,6 @@ void routeMessage(const std::string& httpRequest)
     std::istringstream stream(httpRequest);
     std::string method;
     stream >> method;
-
-
 }
 
 
